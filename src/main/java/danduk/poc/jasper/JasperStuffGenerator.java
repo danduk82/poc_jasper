@@ -27,8 +27,8 @@ public class JasperStuffGenerator {
 	public static void main(String[] args) throws Exception {
 		try {
 			//File reportFile = new File("/home/aborghi/JaspersoftWorkspace/MyReports/Blank_A4.jrxml");
-			String reportFile = "/home/aborghi/JaspersoftWorkspace/MyReports/Blank_A4.jrxml";
-			String outputPdfFile = "/home/aborghi/test/jasper/simple.pdf";
+			String reportFile = "resources/templates/test1.jrxml";
+			String outputPdfFile = "build/reports/test1.pdf";
 			List<Item> itemList = new ArrayList<Item>();
 			
 			Item A = new Item();
